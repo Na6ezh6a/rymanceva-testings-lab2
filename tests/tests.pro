@@ -19,6 +19,7 @@ HEADERS += \
     extra_tests.h \
     j_test.h \
     m_test.h \
+    mp_tests.h \
     save_test.h \
     show_test.h \
     showodd_test.h

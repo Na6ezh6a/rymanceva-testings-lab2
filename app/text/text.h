@@ -1,11 +1,3 @@
-/**
- * text.h -- внешний интерфейс библиотеки для работы с текстом
- *
- * Copyright (c) 2017, Alexander Borodin <aborod@petrsu.ru>
- *
- * This code is licensed under a MIT-style license.
- */
-
 #ifndef TEXT_H
 #define TEXT_H
 

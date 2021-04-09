@@ -5,6 +5,7 @@
 #include "m_test.h"
 #include "extra_tests.h"
 #include "j_test.h"
+#include "mp_tests.h"
 
 int main(int argc, char *argv[])
 {
