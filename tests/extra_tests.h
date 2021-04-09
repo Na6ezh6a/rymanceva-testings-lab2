@@ -32,4 +32,17 @@ TEST(extraTest, nullTxt)
     remove_all(txt); // проверяем не будет ли ошибки (не упадёт ли приложение)
 }
 
+TEST(extraTest, clear) {
+    text txt = create_text();
+    append_line(txt, "test line 1");
+    append_line(txt, "test line 2");
+    append_line(txt, "test line 3");
+
+    EXPECT_EQ(txt->lines->size(), 3);
+
+    remove_all(txt);
+
+    EXPECT_EQ(txt->lines->size(), 0);
+}
+
 #endif // EXTRA_TESTS_H
